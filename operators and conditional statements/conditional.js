@@ -38,7 +38,7 @@
 //     console.log("MIddle");
 // }
 
-// Ternary Operator;
+// TERNARY OPERATOR
 
 let a = 20;
 let result = a >= 15? "good" : "bad";
