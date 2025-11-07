@@ -40,6 +40,6 @@
 
 // Ternary Operator;
 
-let a = 30;
+let a = 20;
 let result = a >= 15? "good" : "bad";
 console.log(result);
