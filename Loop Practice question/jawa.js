@@ -6,7 +6,7 @@
 //     }
 // }
 
-// Guess the number game practice;
+// GUESS THE GAME NUMBER PROBLEM ;
 
 let gameNum = prompt("Enter the game number");
 let userNum = prompt("Guess the number");
