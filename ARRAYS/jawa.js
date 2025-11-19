@@ -62,6 +62,14 @@ let del = school_books.shift();
 console.log(del," is deleted from array")
 console.log(school_books);
 
+console.log(`Slice and Splice function`);
+// Add Slice() Function;
+console.log(general_books.slice(1,3));
 
+// ADD Splice() Functin;
 
-
+let array = [1,2,3,4,5,6,7,8,9,10];
+console.log(array);
+console.log(`by using splice function logic we can add,remove and replace the items`);
+array.splice(1,4,123);
+console.log(array);
