@@ -41,3 +41,27 @@ console.log(Items.toString());
 
 // Concate method;
 
+let general_books = ["atomic Habits","master your mind set","dark"];
+let school_books = ["physics","maths","chemistry"];
+
+let Books = general_books.concat(school_books);
+console.log(Books);
+
+console.log(general_books.length);
+console.log(school_books.length);
+console.log(Books.length);
+
+// ADD Unshift Function;
+console.log(`After the Unshift() Function`);
+general_books.unshift("data structure");
+console.log(general_books);
+
+// Add Shift Function;
+console.log(`After the shift function`);
+let del = school_books.shift();
+console.log(del," is deleted from array")
+console.log(school_books);
+
+
+
+
