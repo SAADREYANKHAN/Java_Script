@@ -25,3 +25,25 @@ function sum(a,b){
    return sum;
 }
 console.log(sum(10,20));
+
+// Arrow functions;
+
+function sum(a,b){
+    return a+b;
+}
+
+//Multiply
+function mul(x,y){
+    return x*y;
+}
+
+const arrowSum = (a,b) => {
+    console.log(a+b);
+}
+arrowSum(10,100);
+
+const arrowMul = (a,b) => {
+    let mul = a*b;
+    console.log(mul);
+}
+arrowMul(100,200);
