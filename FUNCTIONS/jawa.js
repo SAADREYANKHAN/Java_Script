@@ -14,36 +14,52 @@
 
 // parameterized function;
 
-function fun(fun){
-    console.log(fun);
-}
-fun("hi am practicing jawa script");
+// function fun(fun){
+//     console.log(fun);
+// }
+// fun("hi am practicing jawa script");
 
-function sum(a,b){
-    let sum = a + b;
-   // console.log("The sum is = ",sum);
-   return sum;
-}
-console.log(sum(10,20));
+// function sum(a,b){
+//     let sum = a + b;
+//    // console.log("The sum is = ",sum);
+//    return sum;
+// }
+// console.log(sum(10,20));
 
-// Arrow functions;
+// // Arrow functions;
 
-function sum(a,b){
-    return a+b;
-}
+// function sum(a,b){
+//     return a+b;
+// }
 
-//Multiply
-function mul(x,y){
-    return x*y;
-}
+// //Multiply
+// function mul(x,y){
+//     return x*y;
+// }
 
-const arrowSum = (a,b) => {
-    console.log(a+b);
-}
-arrowSum(10,100);
+// const arrowSum = (a,b) => {
+//     console.log(a+b);
+// }
+// arrowSum(10,100);
 
-const arrowMul = (a,b) => {
-    let mul = a*b;
-    console.log(mul);
-}
-arrowMul(100,200);
+// const arrowMul = (a,b) => {
+//     let mul = a*b;
+//     console.log(mul);
+// }
+// arrowMul(100,200);
+
+//for each function ;
+
+let arr = [1,2,3,4,5,6];
+console.log("By using arrow functin");
+arr.forEach((val) => {
+    
+    console.log(val);
+});
+
+console.log("By using calback function");
+
+let str = ["saad","reyan","khan",'S'];
+str.forEach(function mystr(value,idx,arr){
+    console.log(value.toUpperCase()," at position",idx,arr);
+});
