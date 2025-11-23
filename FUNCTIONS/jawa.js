@@ -63,3 +63,12 @@ let str = ["saad","reyan","khan",'S'];
 str.forEach(function mystr(value,idx,arr){
     console.log(value.toUpperCase()," at position",idx,arr);
 });
+
+console.log(`Another way to write the for each loop`);
+
+function square(abc){
+  console.log(abc);
+}
+
+arr.forEach(square);
+str.forEach(square);
